@@ -1,0 +1,325 @@
+p {
+    margin: 0;
+}
+
+body {
+
+    background: #000000;
+    color: #FFFFFF;
+}
+
+h1 {
+    margin-top: 10px;
+    text-align: center;
+    color: #F80808;
+    font-size: 72px;
+}
+
+button {
+    style: none;
+}
+
+/* ルールページ */
+.rule {}
+
+.rule__info {
+    width: 1000px;
+    height: 450px;
+    border: solid 2px #7E7E7E;
+    border-radius: 3px;
+    font-size: 36px;
+    margin: 0 auto;
+    padding-left: 15px;
+    background: #303030;
+    box-sizing: border-box;
+    position: relative;
+    left: 33px;
+}
+
+.rule__info__text {
+    text-align: left;
+}
+
+.rule__nation {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* トップページ */
+.top__img {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.top__img img {
+    height: 180px;
+    width: 180px;
+}
+
+.top__menu {
+    text-align: center;
+    line-height: 80px;
+    margin-top: 60px;
+}
+
+.buttonA {
+    font-size: 42px;
+    background: #000000;
+    border: none;
+    color: #A3A3A3;
+    outline: none;
+    transition: all 0.5s;
+}
+
+.buttonA:hover {
+    background: #000000;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+/* ゲームページ */
+.game {
+    width: 100%;
+}
+
+.game__up {
+    display: flex;
+    justify-content: center;
+}
+
+.game__up__left {
+    font-size: 21px;
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+    margin-left: 80px;
+}
+
+.left__info {
+    height: 80px;
+    padding: 5px;
+    margin-bottom: 30px;
+    border: solid 2px #7E7E7E;
+    border-radius: 3px;
+    background: #303030;
+    box-sizing: border-box;
+}
+
+.left__ate {}
+
+.left__score {}
+
+.left__menu {
+    margin-top: 150px;
+}
+
+.left__menu .buttonA {
+    font-size: 24px;
+    width: 180px;
+    text-align: left;
+}
+
+.ate--count,
+.score--count {
+    font-size: 27px;
+    float: right;
+}
+
+/* 料理　*/
+.game__food {
+    width: 400px;
+    height: 380px;
+    margin-right: 40px;
+    background: #FFFFFF;
+    color: #000000;
+    border: solid 2px #7E7E7E;
+    border-radius: 3px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.food--title {
+    font-size: 24px;
+    font: bold;
+}
+
+.game__food__hp {
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.game__food__hot {
+    font-size: 21px;
+    text-align: left;
+
+    margin-left: 30px;
+}
+
+.food--karasa {
+    display: inline-block;
+    vertical-align: 60%;
+}
+
+/* ログ */
+.game__history {
+    font-size: 18px;
+    height: 380px;
+    width: 330px;
+    padding-left: 5px;
+    background: #303030;
+    overflow-y: scroll;
+    border: solid 2px #7E7E7E;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* ステータスとコマンド */
+.status {
+    width: 100%;
+}
+
+.status__info {
+    height: 180px;
+    width: 1010px;
+    margin: 0 auto;
+    margin-top: 35px;
+    color: #000000;
+    border: solid 2px #7E7E7E;
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+    left: 40px;
+    text-align: right;
+    background: #404040;
+    color: #FFFFFF;
+}
+
+.status__img {
+    font-size: 21px;
+    padding-top: 15px;
+    padding-left: 30px;
+    float: left;
+    text-align: center;
+}
+
+.status img {
+    height: 120px;
+    width: 100px;
+}
+
+.status__hp {
+    padding-top: 20px;
+    padding-left: 30px;
+    float: left;
+    line-height: 50px;
+}
+
+.status__hp__hot,
+.status__jonetu__hot {
+    font-size: 21px;
+    width: 360px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.status__jonetu__hot {
+    height: 60px;
+}
+
+.status--hp {
+    color: greenyellow;
+}
+
+.status--jonetu {
+    display: inline-block;
+    vertical-align: 40%;
+    color: #FF6565;
+}
+
+.status--taberu {
+    font-size: 21px;
+    text-align: left;
+}
+
+.status__command {
+    margin-top: 20px;
+    margin-right: 5px;
+    float: right;
+}
+
+.buttonB {
+    font-size: 21px;
+    margin-right: 15px;
+    border: solid 3px #7E7E7E;
+    border-radius: 10%;
+    outline: none;
+    transition: all 0.1s;
+}
+
+.buttonB:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.command--eat {
+    background: #FF7E7E;
+}
+
+.command--drink {
+    background: #C0EBFE;
+}
+
+.command--change {
+    background: #B0FFBC;
+}
+
+/* リザルト画面 */
+.result__area {
+    font-size: 42px;
+    text-align: center;
+    width: 1000px;
+    height: 250px;
+    margin: 0 auto;
+    background: #303030;
+    box-sizing: border-box;
+    position: relative;
+    left: 33px;
+    border: solid 2px #7E7E7E;
+    border-radius: 3px;
+    line-height: 80px;
+}
+
+.result__menu {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.result__menu .buttonA {
+    font-size: 30px;
+    margin-left: 80px;
+    text-align: left;
+}
+
+.result__menu .buttonA:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/* その他 */
+.gage {
+    width: 190px;
+    height: 25px;
+    border: solid 2px #000000;
+}
+
+meter {
+    background: #7E7E7E;
+}
+
+/* アイコン */
+i {
+    font-family: Font Awesome 5 Free;
+    font-weight: solid;
+}
